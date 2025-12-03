@@ -1,0 +1,267 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+main {
+    background-image: url("images/fond3.jpg");
+}
+
+nav {
+    background: #16c22c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.nav-left {
+    background-color: white;
+}
+
+.nav-logo {
+    width: 120px;
+    height: auto;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 20px;
+    font-weight: 600;
+    transition: color 0.3s;
+    border-radius: 15px;
+}
+
+.nav-links a:hover {
+    background-color: #ffffff;
+    color: #16c22c;
+}
+
+#accueil {
+    text-align: center;
+    background-image: url("images/fond.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20px;
+    color: white;
+    min-height: 500px;
+}
+
+#accueil h2,#accueil p {
+    font-size: 1.3em;
+}
+
+#presentation {
+    padding: 50px;
+}
+
+.contenu {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contenu b,h2 {
+    color: #16c22c;
+}
+
+#presentation_koumba img {
+    float: left;
+    width: 25%;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.champAsiette {
+    text-align: center;
+    padding: 75px;
+}
+
+.champAsiette img {
+    border: 5px solid #16c22c;
+}
+
+.vert {
+    color: #16c22c;
+}
+
+.bande-blanche {
+    background: white;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#explication {
+    text-align: center;
+}
+
+#explication h2 {
+    font-size: 5em;
+}
+
+.plats,.boisson {
+    display: flex;
+    align-items: flex-start;
+    gap: 45px;
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+.plats img,.boisson img {
+    width: 250px;
+    height: auto;
+    display: block;
+}
+
+.plats .texte, .boisson .texte {
+    max-width: 600px;
+}
+
+.plats .texte p, .boisson .texte p {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#contenu h3 {
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #16c22c;
+    color: #ffffff;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.contact-container h2, .contact-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #16c22c;
+}
+
+.contact-container p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.contact-container input,.contact-container textarea {
+    padding: 12px;
+    border: 2px solid #16c22c;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-container textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.contact-container button {
+    padding: 12px;
+    background-color: #16c22c;
+    color: white;
+    border: 2px solid #16c22c;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.contact-container button:hover {
+    background-color: #ffffff;
+    color: #16c22c;
+}
+
+#newsletter {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#newsletter h2 {
+    color: #16c22c;
+    margin-bottom: 20px;
+}
+
+#newsletter form {
+    display: flex;
+    gap: 10px;
+}
+
+#newsletter input {
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    flex: 1 1 200px;
+}
+
+#newsletter button {
+    padding: 10px 20px;
+    border: 1px solid #16c22c;
+    border-radius: 8px;
+    background-color: #16c22c;
+    color: #ffffff;
+}
+
+#newsletter button:hover {
+    background-color: #ffffff;
+    color: #16c22c;
+}
+
+.footercontact {
+    background-color: #dec22c;
+    padding: 20px;
+}
+
+.footercontact a:hover {
+    opacity: 0.8;
+}
+
+.footercredit {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+}
+
+.logoContact {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.boutonNavigation {
+    font-size: 2em;
+    padding: 5% 30%;
+    text-align: center;
+    color: white;
+    background-color: #16c22c;
+    border: 1px solid #16c22c;
+    border-radius: 15px;
+    transition: color 0.3s;
+}
+
+.boutonNavigation:hover {
+    background-color: #ffffff;
+    color: #16c22c;
+}
