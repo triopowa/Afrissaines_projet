@@ -48,15 +48,19 @@ nav {
     background-repeat: no-repeat;
     padding: 100px 20px;
     color: white;
-    min-height: 500px;
-}
+    min-height: 300px;
+    font-size : 50px
 
-#accueil h2,#accueil p {
-    font-size: 1.3em;
 }
 
 #presentation {
     padding: 50px;
+}
+
+.categorie{
+    color: #16c22c;
+    text-align: center;
+    font-size: 80px;
 }
 
 .contenu {
@@ -64,8 +68,12 @@ nav {
     margin: 0 auto;
 }
 
-.contenu b,h2 {
+.contenu b, .contenu h2{
     color: #16c22c;
+}
+
+#presentation_koumba{
+    padding-top: 50px;
 }
 
 #presentation_koumba img {
@@ -101,7 +109,8 @@ nav {
 }
 
 #explication h2 {
-    font-size: 5em;
+    font-size: 8em;
+    color: #16c22c;
 }
 
 .plats,.boisson {
